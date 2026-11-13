@@ -1,5 +1,5 @@
 FROM osrf/ros:jazzy-desktop-full
-WORKDIR /~/ros_ws
+WORKDIR /root/ros_ws
 
 
 RUN apt-get update && apt-get install -y --no-install-recommends python3-colcon-common-extensions
